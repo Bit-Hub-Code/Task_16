@@ -1,0 +1,55 @@
+.con {
+    float: left;
+    margin: 10px;
+    height: 300px;
+    width: 175px;
+    border-radius: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.con-1 {
+    background-color: aqua;
+}
+
+.con-2 {
+    background-color: rgb(111, 42, 134);
+}
+
+.con-3 {
+    background-color: rgb(255, 0, 51);
+}
+
+.con-4 {
+    background-color: rgb(0, 21, 255);
+}
+
+.con:hover {
+    height: 330px;
+    width: 205px;
+    transition: 1.5s;
+}
+
+p {
+    text-align: center;
+    font-style: oblique;
+    font-size: 20px;
+}
+
+.price {
+    font-size: 38px;
+}
+
+button {
+    /* border-radius: 15px; */
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #9c9c9c42;
+    color: #ffffffd5;
+    padding: 8px 16px;
+    font-size: 16px;
+}
